@@ -157,7 +157,8 @@
 .user-credentials {
   display: flex;
   width: 250px;
-  height: 70px;
+  justify-content: space-between;
+  align-items: center;
 }
 .user-credentials img {
   border-radius: 50%;
