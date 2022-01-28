@@ -186,3 +186,7 @@ main {
 #sidebar:hover ~ main div.header {
   width:calc(100% - 250px)
 }
+.sui-facet {
+  width: 200px;
+}
+
