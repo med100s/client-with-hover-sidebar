@@ -137,7 +137,8 @@
 .invisible {
   display: none;
 }
-.header { 
+.header {  
+  z-index: 950;
   padding: 10px;
   transition: all 0.3s ease-in-out;
   background-color:#fff;
