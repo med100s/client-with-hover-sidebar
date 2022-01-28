@@ -10,7 +10,6 @@ import {
   Route,
 } from "react-router-dom";
 
-import options from "./options.svg";
 
 import AppSearchAPIConnector from "@elastic/search-ui-app-search-connector";
 
