@@ -134,8 +134,13 @@
   border-bottom-right-radius: 0px;
   top: 100%;
 }
+.visible{
+  display: flex;
+  justify-content: space-between;
+}
 .invisible {
   display: none;
+
 }
 .header {  
   z-index: 950;
@@ -156,11 +161,11 @@
   border-bottom-right-radius: 0px;
 }
 .user-credentials {
-  margin-right: 10px;
-  display: flex;
-  width: 250px;
-  justify-content: space-between;
-  align-items: center;
+    margin-right: 10px;
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    align-items: center;
 }
 .user-credentials img {
   border-radius: 50%;
@@ -186,7 +191,10 @@ main {
 #sidebar:hover ~ main div.header {
   width:calc(100% - 250px)
 }
+
 .sui-facet {
   width: 200px;
 }
-
+.sui-facet + .sui-facet {
+  margin-top: 0px;
+}

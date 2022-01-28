@@ -264,7 +264,7 @@ function App() {
                 <Route
                   path="/search"
                   component={(props) => (
-                    <div class="options-menu visible">
+                    <div class="options-menu">
                       <div>
                         <div class="shit">
                           Filter Block
@@ -283,7 +283,23 @@ function App() {
                             filterType="any"
                             isFilterable={true}
                           />
-                          <Sorting
+                          <Facet
+                            field="states"
+                            label="States"
+                            filterType="any"
+                            isFilterable={true}
+                          />
+                          <Facet
+                            field="states"
+                            label="States"
+                            filterType="any"
+                            isFilterable={true}
+                          />
+                          
+                        </div>
+                        
+                        <div class={isOn ? "visible" : "invisible"}>
+                        <Sorting
                             label={"Sort by"}
                             sortOptions={SORT_OPTIONS}
                           />
