@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/client-with-hover-sidebar/static/css/main.e8a1a8d0.css",
+    "main.js": "/client-with-hover-sidebar/static/js/main.847469f6.js",
+    "static/js/787.e8769ff5.chunk.js": "/client-with-hover-sidebar/static/js/787.e8769ff5.chunk.js",
+    "index.html": "/client-with-hover-sidebar/index.html",
+    "main.e8a1a8d0.css.map": "/client-with-hover-sidebar/static/css/main.e8a1a8d0.css.map",
+    "main.847469f6.js.map": "/client-with-hover-sidebar/static/js/main.847469f6.js.map",
+    "787.e8769ff5.chunk.js.map": "/client-with-hover-sidebar/static/js/787.e8769ff5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e8a1a8d0.css",
+    "static/js/main.847469f6.js"
+  ]
+}

@@ -2,6 +2,7 @@
   "name": "test-task",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gitname.github.io/client-with-hover-sidebar",
   "dependencies": {
     "@elastic/react-search-ui": "^1.9.0",
     "@elastic/search-ui-app-search-connector": "^1.9.0",
@@ -11,6 +12,7 @@
     "@trendmicro/react-sidenav": "^0.5.0",
     "elastic": "^0.1.10",
     "elasticsearch": "^16.7.2",
+    "gh-pages": "^4.0.0",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -22,6 +24,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b build -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
