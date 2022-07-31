@@ -7,7 +7,7 @@ import { HashRouter } from 'react-router-dom'
 
 ReactDOM.render(
   <React.StrictMode>
-   <HashRouter>
+   <HashRouter basename={"https://med100s.github.io/client-with-hover-sidebar/"}>
     <App />
    </HashRouter> 
   </React.StrictMode>,
